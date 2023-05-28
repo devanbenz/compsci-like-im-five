@@ -2,11 +2,9 @@ import {type NextPage} from "next";
 import {type ChangeEvent, useEffect, useRef, useState} from "react";
 import {Button, Loader, TextInput} from "@mantine/core";
 import * as pdfjs from 'pdfjs-dist';
-import {type PdfRawInterface} from "~/pages/paper-import/types/pdf-raw.interface";
-import {type TextContent} from "pdfjs-dist/types/web/text_layer_builder";
 import {type TextItem, type TextMarkedContent} from "pdfjs-dist/types/src/display/api";
 import {api} from "~/utils/api";
-import {PROMPT_STUB} from "~/pages/paper-import/constants";
+import {PROMPT_STUB} from "~/constants";
 import {useForm} from "@mantine/form";
 pdfjs.GlobalWorkerOptions.workerSrc = '//cdnjs.cloudflare.com/ajax/libs/pdf.js/3.6.172/pdf.worker.js';
 
