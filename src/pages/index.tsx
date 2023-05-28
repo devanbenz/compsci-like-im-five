@@ -22,7 +22,7 @@ const Home: NextPage = () => {
                 className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-b from-[#577D86] to-[#B9EDDD]">
                     <div
                         className={`text-center relative transition-opacity duration-1000 ${draw ? 'opacity-100' : 'opacity-0'}`}>
-                        <h1 className="text-5xl font-bold text-white mb-8 mt-16">CompSci Like I'm Five</h1>
+                        <h1 className="text-5xl font-bold text-white mb-8 mt-16">CompSci Like Im Five</h1>
                         <p className="text-sm text-white mb-12">Explaining computer science papers so well, a five year
                             old could understand.</p>
                         <Link href={"/paper-import"}>
